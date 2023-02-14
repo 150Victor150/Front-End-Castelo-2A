@@ -1,8 +1,10 @@
 # Front-End-Castelo-2A #
-Olá eu estou estudando programaçào front-end
++Olá eu estou estudando programação front-end+
 
-Meu nome é Victor Silva
++Meu nome é Victor Silva+
 
-Email: victor.silva.oliveira@escola.pr.gov.br
++Email: victor.silva.oliveira@escola.pr.gov.br+
+
++**"O MUNDO É PROGRAMAVEL, ATÉ VOCÊ...💀"**+
 
 **🔱Virtus vera per scientiam acquiritur.🔱**
