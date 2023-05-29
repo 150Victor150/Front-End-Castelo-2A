@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="logotipo.png">
+        ><h1 class="titulo-principal">BOLOS DA VÂNIA, O MELHOR DE CASCAVEL!</h1>
+
+    </header>
+    <main>
+            <form>
+                <fieldset>
+                    <legend><strong>Formulário de Clientes</strong></legend>
+                    <br>
+
+                    <section class="inputBox">
+                        <input type="text" name="nome" id="nome" class="InputUser" required>
+                        <label for="nome" class="labelinput">Nome completo</label>
+                    </section>
+                    
+                    <br> <br>
+
+                    <section class="inputBox">
+                        <input type="text" name="email" id="email" class="InputUser" required placeholder="seuemail@dominio.com">
+                        <label for="email" class="labelinput">Email</label>
+                    </section>
+
+                    <br><br>
+
+                    <section class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="InputUser" required placeholder="(DDD)XXXXX-XXXX">
+                        <label for="telefone" class="labelinput">Telefone</label>
+                    </section>
+
+                    <br><br>
+                    <p>Sexo</p>
+                    <input type="radio" name="masculino" id="masculino" value="masculino" required>
+                    <label for="masculino" class="labelinput">Masculino</label>
+                    <br>
+                    <input type="radio" name="feminino" id="feminino" value="feminino" required>
+                    <label for="feminino" class="labelinput">Feminino</label>
+                    <br>
+                    <input type="radio" name="outro" id="outro" value="outro" required>
+                    <label for="outro" class="labelinput">Outro</label> 
+                    <br> <br>
+
+                    <label for="data_nascimento"><strong>Data de Nascimento</strong></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>    
+                    <br> <br>
+
+                    <section class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="InputUser" required>
+                        <label for="cidade" class="labelinput">Cidade</label>
+                    </section>
+                    <br> <br>
+                    <section>
+                        <input type="text" name="estado" id="estado" class="InputUser" required>
+                        <label for="estado" class="labelinput">Estado</label>
+                    </section>
+                    <br> <br>
+                    <section class="inputBox">
+                        <input type="text" name="endereço" id="endereço" class="InputUser" required>    
+                        <label for="endereço" class="labelinput">Endereço</label>
+                    </section>
+                    <br> <br>
+                    <input type="submit" value="Enviar formulario" id="enviar">
+                </fieldset>
+            </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

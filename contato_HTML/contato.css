@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    font-family: roboto;
+}
+
+header{
+    background-color: #CAE1FF;
+    padding: 15px;
+}
+
+#logo{
+    position:relative;
+    left: 2%;
+    border: solid black 10px;
+    border-radius: 100%;
+    width: 655px;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('Roboto-Light.ttf') format('truetype');
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(-10%, 50%);
+    font-size: 95px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
